@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+        <!-- Counting -->
+        Please enter first number:<input required onfocus="this.style.backgroundColor = '#cecece'" onblur="this.style.backgroundColor='RGB(185, 185, 185)'" id="txtFirstNumber" type="number" />
+        Please enter second number:<input required onfocus="this.style.backgroundColor = '#cecece'" onblur="this.style.backgroundColor='RGB(185, 185, 185)'" id="txtSecondNumber" type="number" />
+        <br />
+        <input id="btnAdd" type="button" value="Add" onclick="sum();"/>
+        <div id="result"></div>
+        <br />
+        <hr />
+        <!-- Counting -->
+
+
+        <!--  hypotenuse of a right angle triangle -->
+        Enter Base<input type="number" id="num1" value="Base" required>
+        Enter Perpendicular<input type="number" id="num2" value="Perpendicular" required>
+        <br />
+        <input type="button" value="Hypotenuse" id="btn" onclick="calculateHypotenuse()"/>
+        <div id="btnResult"></div>
+        <br />
+        <hr />
+        <!--  hypotenuse of a right angle triangle -->
+
+
+        <!--  calculates the area of a rectangle -->
+        Enter Length of your triangle<input type="number" value="length" id="length" required>
+        Enter width of your triangle<input type="number" value="width" id="width" required>
+        <br />
+        <input type="button" value="Area" id="triangle" onclick="area()">
+        <div id="triangleResult"></div>
+        <br />
+        <hr />
+        <!--  calculates the area of a rectangle -->
+
+
+        <!--  palindrome -->
+        Enter a palindrome word<input type="text"  id="palindrome" required>
+        <br />
+        <input type="button" value="result" id="resultOfPal" onclick="palindrome('A man, a plan, a canal. Panama')">
+        <div id="palindromeResult"></div>
+        <br />
+        <hr />
+        <!--  palindrome -->
+
+
+         <!--  calculates the area of a rectangle -->
+         Enter Some Character<input type="text" id="inputText"> <br/>
+         <button onclick=findLongestWord()>longest              word</button> <br/>
+         <div id="longChar"></div> <br/>
+         <div id="longCharLength"></div>
+         <br />
+         <hr />
+        <!--  calculates the area of a rectangle -->
+
+
+        <!-- Number of occurence -->
+        Enter some words<input type="text"  id="worsOf" required>
+        Enter some numbers<input type="text" id="numOf" required>
+        <br />
+        <input type="button" value="occurrences" id="count" onclick="occurrences()">
+        <div id="occurrences"></div>
+        <br />
+        <hr />
+        <!-- Number of occurence -->
+
+</body>
+<script src="./App.js"></script>
+</html>

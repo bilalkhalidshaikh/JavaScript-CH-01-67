@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUNCTIONS, SWITCH STATEMENTS, WHILE… DOWHILE LOOPS</title>
+  </head>
+
+  <body style="text-align: center;">
+    <!-- Task #2 -->
+    <br />
+    Enter Year :<input type="text" id="year" />
+    <button type="button" value="Check" onclick="check()">Check</button>
+    <p id="yearMessage"></p>
+    <br />
+    <hr />
+    <!-- Task #2 -->
+
+    <!-- Task #3 -->
+    <br />
+    <div style="display: inline-block;">
+      Enter Side one: <input type="number" name="" id="side1" /> Enter Side two:
+      <input type="number" name="" id="side2" /> Enter Side Three:
+      <input type="number" name="" id="side3" />
+      <button type="submit" onclick="areaOfTriangle()">Calculate</button>
+    </div>
+    <p id="areaOfTriangle"></p>
+    <br />
+    <hr />
+    <!-- Task #3 -->
+
+    <!-- Task#4 -->
+    <br />
+    <div style="display: inline-block;">
+      Enter Computer Marks: <input type="number" id="computer" /> Enter Maths
+      Marks: <input type="number" id="math" /> Enter Physics Marks:
+      <input type="number" id="physics" /> Enter Total Marks:
+      <input type="number" id="total" />
+      <br />
+      <br />
+      <input type="button" value="Average" onclick="average()" />
+      <input type="button" value="Percentage" onclick="percentage()" />
+      <p id="ave"></p>
+      <p id="per"></p>
+    </div>
+    <br />
+    <hr />
+    <!-- Task#4 -->
+
+    <!-- Task#6 -->
+    <br />
+    Enter Sentence : <input type="text" id="replace" />
+    <input type="button" value="Remove Vowel" onclick="buttonClick()" />
+    <p id="removevowel"></p>
+    <br />
+    <hr />
+    <!-- Task#6 -->
+
+    <!-- Task#8 -->
+    <br />
+    Enter distance between two cities (in km.) :
+    <input type="number" name="" id="cities" />
+    <br />
+    <br />
+    <input type="button" value="Check meters" onclick="checkMeters()" />
+    <input type="button" value="Check feet" onclick="checkFeet()" />
+    <input type="button" value="Check inches" onclick="checkInches()" />
+    <input
+      type="button"
+      value="Check centimeters"
+      onclick="checkCentiMeters()"
+    />
+    <p id="metersHtml"></p>
+    <p id="feetHtml"></p>
+    <p id="inchesHtml"></p>
+    <p id="centiHtml"></p>
+    <br />
+    <hr />
+    <!-- Task#8 -->
+
+    <!-- Task#9 -->
+    Enter Employe Name : <input type="text" id="name" /> Enter Employe Hourse :
+    <input type="text" id="hours" />
+    <input type="button" value="Ok" onclick="paySalary()" />
+    <p id="results"></p>
+    <!-- Task#9 -->
+
+    <!-- Task#10 -->
+    Enter amount to withdraw :<input type="number" id="amount" />
+    <input
+      type="button"
+      value="Find"
+      id="find"
+      onclick="currencyDenomination()"
+    />
+    <p id="withDraw"></p>
+    <!-- Task#10 -->
+  </body>
+  <script src="App.js"></script>
+</html>
